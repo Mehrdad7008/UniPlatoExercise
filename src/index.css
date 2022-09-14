@@ -1,0 +1,66 @@
+.pageContainer{
+    display: flex;
+    min-height: 100vh;
+    border-radius: 20px;
+    background-color: #E6F9F9;
+}
+
+.navbarContainer{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width:396px;
+
+}
+
+.newLink{
+    text-decoration: none;
+}
+
+.uncompletedPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Roboto Condensed';
+}
+
+.PostsPage {
+    margin-bottom: 100px;
+    min-width: 100%;
+}
+
+.rowCenterBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.columnListBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    font-family: 'Roboto Condensed';
+}
+
+.postBox {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 45px;
+}
+
+.postImages {
+    border-radius: 10px;
+    box-shadow: 3px 3px 50px #5BDAFF;
+}
+
+.postTitle {
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.postDescription {
+    padding-top: 15px;
+}
