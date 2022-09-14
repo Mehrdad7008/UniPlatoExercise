@@ -20,7 +20,6 @@ const ALTERNATIVE_IMAGE = 'https://i.ibb.co/G9gkYp2/unavailable-image-1.jpg';
 const API_URL = 'https://uniplato.staging.uniplato.us/api/v1/mock-data';
 const DESCRIPTION_LIMIT = 200;
 const SCROLL_LIMIT = 900;
-const DELAY = 500;
 
 
 const FetchData = () =>{
@@ -99,7 +98,6 @@ const FetchData = () =>{
                     const {id, title, description, image} = movie;
                     return(
                         <React.Fragment key={id}>
-                            <Grow in={(true)} {...({ timeout: (id + 1) * DELAY })}>
                                 <Box className='columnListBox postBox' >
 
                                     {/*Picture of the movie*/}
@@ -122,7 +120,6 @@ const FetchData = () =>{
                                     </Box>
                                     
                                 </Box>
-                            </Grow>
                         </React.Fragment>
                     )})
                 )
